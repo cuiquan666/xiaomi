@@ -1,0 +1,83 @@
+.shopbuy{
+    font-size:.3rem;
+    .imgs{
+        position: relative;
+        height: 9rem;
+        font-size:.4rem;
+        .des{
+            font-size: .25rem;
+            color: #ccc;
+        }
+        p{
+            color:orange;
+        }
+        .back{
+            position: absolute;
+            left:.4rem;
+            top:.3rem;
+            width: .5rem;
+            height: .5rem;
+            background-color: #ddd;
+            line-height: .5rem;
+            text-align: center;
+            border-radius: .2rem;
+        }
+    }
+    .buy-botoom{
+        padding-left: .2rem;
+        span{
+            display: block;
+            font-size:.4rem;
+        }
+        .jie{
+            display: inline-block;
+            width:.6rem;
+            height: .6rem;
+            background-color: #ddd;
+            text-align: center;
+            line-height: .6rem;
+            font-weight: bold;
+        }
+        .num{
+            display: inline-block;
+            width:.6rem;
+            height: .6rem;
+            background-color: #ddd;
+            text-align: center;
+            line-height: .6rem;
+            font-weight: bold;
+        }
+        .jia{
+            display: inline-block;
+            width:.6rem;
+            height: .6rem;
+            background-color: #ddd;
+            text-align: center;
+            line-height: .6rem;
+            font-weight: bold;
+        }
+        .btn{
+            display: flex;
+            margin-top: .2rem;
+            .cart{
+                width: 50%;
+                height: 1rem;
+                background-color:orange;
+                line-height: 1rem;
+                text-align: center;
+                color: #fff;
+            }
+            .buy{
+                margin-left: .1rem;
+                display: inline-block;
+                width: 48%;
+                height: 1rem;
+                background-color: red;
+                line-height: 1rem;
+                text-align: center;
+                color: #fff;
+            }
+        }
+       
+    }
+}

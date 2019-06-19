@@ -1,0 +1,58 @@
+.shop{
+    font-size:.35rem;
+    .top{
+        border-bottom:.05rem solid #ccc;
+    }
+    .cont{
+        height: 8rem;
+    }
+    .comput{
+        display: flex;
+        height: 1.5rem;
+        padding-top:.5rem;
+        border-bottom:1px solid #ddd; 
+        .pirce{
+            font-size:.5rem;
+            margin-left:.6rem;
+            margin-right: 2rem;
+        }
+        .jie{
+            width: .5rem;
+            height:.8rem;
+            background-color: #ddd;
+            line-height: .8rem;
+            text-align: center;
+        }
+        .jia{
+            width: .5rem;
+            height:.8rem;
+            background-color: #ddd;
+            line-height: .8rem;
+            text-align: center;
+            margin-right: 1rem;
+        }
+        .num{
+            width: .5rem;
+            height:.8rem;
+            background-color: #ddd;
+            line-height: .8rem;
+            text-align: center;
+        }
+        .del{
+            margin-top:.2rem;
+            color: blue;
+        }
+    }
+    .foot{
+        height: 1.5rem;
+        line-height: 1.5rem;
+        .pice{
+            color:orange;
+        }
+        .zong{
+            float: right;
+            background-color: red;
+            color: #fff;
+        }
+    }
+}
